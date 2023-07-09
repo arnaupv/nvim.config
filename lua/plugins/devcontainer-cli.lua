@@ -7,7 +7,7 @@ return {
     dev = true,
     opts = {
       nvim_dotfiles = "https://github.com/arnaupv/dotfiles.git",
-      nvim_dotfiles_install = "cd ~/dotfiles/ && ./install.sh",
+      nvim_dotfiles_install = "./install.sh -p 'nvim stow zsh'",
     },
     keys = {
       -- stylua: ignore
