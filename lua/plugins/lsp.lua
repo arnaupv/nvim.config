@@ -39,6 +39,7 @@ return {
           },
         },
       },
+      autoformat = false,
       -- setup = {
       --   pyright = function(_, opts)
       --     local lsp_utils = require("plugins.lsp.utils")
