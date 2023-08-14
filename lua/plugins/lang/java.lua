@@ -141,7 +141,9 @@ return {
                   jdtls_bin,
                   "-data",
                   workspace_folder,
+                  "--jvm-args=-javaagent:/home/arnaup/.local/share/nvim/mason/share/jdtls/lombok.jar",
                   "--jvm-arg=-Xms2G",
+                  "--jvm-arg=-Dlog.level=ALL",
                 },
                 settings = {
                   java = {
@@ -171,8 +173,9 @@ return {
                         "#",
                         "java",
                         "javax",
-                        "org",
                         "com",
+                        "org",
+                        "lombok",
                       },
                     },
                     contentProvider = { preferred = "fernflower" },
