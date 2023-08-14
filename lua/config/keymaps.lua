@@ -15,3 +15,5 @@ vim.keymap.set(
   '<cmd>:lua require("lazy.util").float_term({"zsh"})<cr>',
   { noremap = true, silent = false, desc = "Terminal ZSH (cwd)" }
 )
+vim.keymap.set("n", "<C-d>", "zz<C-d>", { noremap = true, silent = false, desc = "zz + <C-d> (center page)" })
+vim.keymap.set("n", "<C-u>", "zz<C-u>", { noremap = true, silent = false, desc = "zz + <C-u> (center page)" })
