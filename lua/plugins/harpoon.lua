@@ -8,5 +8,10 @@ return {
       { "<leader>hp", ":lua require('harpoon.ui').nav_prev()<cr>", desc = "[H]arpoon [P]revious" },
       { "<leader>sh", ":Telescope harpoon marks<cr>", desc = "[S]earch [H]arpoon" },
     },
+    opts = {
+      menu = {
+        width = vim.api.nvim_win_get_width(0) - 4,
+      },
+    },
   },
 }
