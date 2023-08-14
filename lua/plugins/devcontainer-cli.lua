@@ -1,10 +1,11 @@
 return {
   -- "arnaupv/nvim-devcontainer-cli",
   {
-    dir = "/home/pontsoul/Documents/Lab/NvimPlugins/nvim-devcontainer-cli",
+    "arnaupv/nvim-devcontainer-cli",
+    -- dir = "/home/pontsoul/Documents/Lab/NvimPlugins/nvim-devcontainer-cli",
     event = "VeryLazy",
-    config = true,
-    dev = true,
+    -- config = true,
+    -- dev = true,
     opts = {
       nvim_dotfiles = "https://github.com/arnaupv/dotfiles.git",
       nvim_dotfiles_install = "./install.sh -p 'nvim stow zsh'",
