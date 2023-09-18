@@ -17,7 +17,7 @@ return {
         null_ls.register(null_ls.builtins.formatting.isort)
       end,
       flake8 = function(source_name, methods)
-        null_ls.register(null_ls.builtins.diagnostics.flake8)
+        null_ls.register(null_ls.builtins.diagnostics.flake8.with({ extra_args = { "--max-line-length=120" } }))
       end,
     }
   end,
