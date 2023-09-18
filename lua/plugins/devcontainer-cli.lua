@@ -2,13 +2,16 @@ return {
   -- "arnaupv/nvim-devcontainer-cli",
   {
     "arnaupv/nvim-devcontainer-cli",
-    -- dir = "/home/pontsoul/Documents/Lab/NvimPlugins/nvim-devcontainer-cli",
+    -- dir = "/home/arnaup/code/other/nvim-devcontainer-cli",
     event = "VeryLazy",
-    -- config = true,
-    -- dev = true,
+    -- Set the dev flag to true for using the directory instead of downloading the repo
+    dev = true,
     opts = {
-      nvim_dotfiles = "https://github.com/arnaupv/dotfiles.git",
-      nvim_dotfiles_install = "./install.sh -p 'nvim stow zsh'",
+      nvim_dotfiles_repo = "https://github.com/arnaupv/nvim.config",
+      nvim_dotfiles_install_command = "mv ~/nvim_dotfiles/ ~/.config/nvim",
+      -- In case you want to change the way the devenvironment is setup, you can also provide your own setup
+      setup_environment_repo = "https://github.com/arnaupv/setup-environment",
+      setup_environment_install_command = "./install.sh -p 'nvim stow zsh'",
     },
     keys = {
       -- stylua: ignore
