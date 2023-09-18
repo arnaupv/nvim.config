@@ -17,3 +17,9 @@ vim.keymap.set(
 )
 vim.keymap.set("n", "<C-d>", "zz<C-d>", { noremap = true, silent = false, desc = "zz + <C-d> (center page)" })
 vim.keymap.set("n", "<C-u>", "zz<C-u>", { noremap = true, silent = false, desc = "zz + <C-u> (center page)" })
+
+-- Tmux
+-- vim.keymap.set("n", "<C-h>", "<cmd>lua require('nvim-tmux-navigation').NvimTmuxNavigateLeft<cr>", { desc = "Tmux: Navigate Left" })
+-- vim.keymap.set("n", "<C-j>", "<cmd>lua require('nvim-tmux-navigation').NvimTmuxNavigateDown<cr>", { desc = "Tmux: Navigate Down" })
+-- vim.keymap.set("n", "<C-k>", "<cmd>lua require('nvim-tmux-navigation').NvimTmuxNavigateUp<cr>", de{ sc = "Tmux: Navigate Up" })
+-- vim.keymap.set("n", "<C-l>", "<cmd>lua require('nvim-tmux-navigation').NvimTmuxNavigateRight<cr>",{  desc = "Tmux: Navigate Right" })
