@@ -1,10 +1,10 @@
 return {
   {
     "neovim/nvim-lspconfig",
-    ---@class PluginLspOpts
-    opts = {
-      autoformat = true,
-    },
+    -- ---@class PluginLspOpts
+    -- opts = {
+    --   autoformat = true,
+    -- },
   },
   { import = "plugins.lang.java" },
   { import = "plugins.lang.markdown" },

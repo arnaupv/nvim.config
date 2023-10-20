@@ -4,8 +4,12 @@
 
 local opt = vim.opt
 local bo = vim.bo
+local g = vim.g
 
 opt.tabstop = 4
 opt.shiftwidth = 4
 opt.expandtab = true
 bo.softtabstop = 4
+
+-- Deactivating the autoformating by default
+g.autoformat = false
