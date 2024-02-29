@@ -53,6 +53,6 @@ require("lazy").setup({
   },
   dev = {
     fallback = false,
-    path = "~/code/other/nvim-dev-plugins/",
+    path = "~/code/nvim-dev-plugins/",
   },
 })
