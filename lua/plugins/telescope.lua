@@ -3,8 +3,8 @@
 -- unexpected behavior.
 return {
   "telescope.nvim",
-  tag = "0.1.1",
-  version = "<=0.1.1",
+  tag = "0.1.5",
+  version = "<=0.1.5",
   dependencies = {
     -- project management
     {
