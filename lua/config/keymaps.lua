@@ -23,3 +23,6 @@ vim.keymap.set("n", "<C-u>", "zz<C-u>", { noremap = true, silent = false, desc =
 -- vim.keymap.set("n", "<C-j>", "<cmd>lua require('nvim-tmux-navigation').NvimTmuxNavigateDown<cr>", { desc = "Tmux: Navigate Down" })
 -- vim.keymap.set("n", "<C-k>", "<cmd>lua require('nvim-tmux-navigation').NvimTmuxNavigateUp<cr>", de{ sc = "Tmux: Navigate Up" })
 -- vim.keymap.set("n", "<C-l>", "<cmd>lua require('nvim-tmux-navigation').NvimTmuxNavigateRight<cr>",{  desc = "Tmux: Navigate Right" })
+
+-- Break out window into a new tab without closing the previous window
+vim.keymap.set("n", "<C-W>t", ":tab split<cr>", { noremap = true, silent = false, desc = "Split into a new tab" })
