@@ -12,7 +12,7 @@ vim.keymap.set("n", "<leader>um", "<cmd>:messages<cr>", { noremap = true, silent
 vim.keymap.set(
   "n",
   "<leader>fZ",
-  '<cmd>:lua require("lazy.util").float_term({"zsh"})<cr>',
+  '<cmd>:lua require("lazy.util").float_term({"zsh"}, { border = "rounded" , title = "ZSH", title_pos = "center"})<cr>',
   { noremap = true, silent = false, desc = "Terminal ZSH (cwd)" }
 )
 vim.keymap.set("n", "<C-d>", "zz<C-d>", { noremap = true, silent = false, desc = "zz + <C-d> (center page)" })
