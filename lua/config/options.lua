@@ -11,5 +11,5 @@ opt.shiftwidth = 4
 opt.expandtab = true
 bo.softtabstop = 4
 
--- Deactivating the autoformating by default
-g.autoformat = false
+-- Activating the autoformating by default
+g.autoformat = true
