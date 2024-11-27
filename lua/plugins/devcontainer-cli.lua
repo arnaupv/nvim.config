@@ -11,7 +11,7 @@ return {
       nvim_dotfiles_install_command = "mv ~/nvim_dotfiles/ ~/.config/nvim",
       -- In case you want to change the way the devenvironment is setup, you can also provide your own setup
       setup_environment_repo = "https://github.com/arnaupv/setup-environment",
-      setup_environment_install_command = "./install.sh -p 'stow xsel'",
+      setup_environment_install_command = "./install.sh -p 'stow nodejs xsel'",
       -- toplevel = true,
       -- interactive = true,
     },
