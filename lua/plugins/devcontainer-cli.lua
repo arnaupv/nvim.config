@@ -5,7 +5,7 @@ return {
     -- dir = "/home/arnaup/code/other/nvim-devcontainer-cli",
     event = "VeryLazy",
     -- Set the dev flag to true for using the directory instead of downloading the repo
-    dev = true,
+    dev = false,
     opts = {
       nvim_dotfiles_repo = "https://github.com/arnaupv/nvim.config",
       nvim_dotfiles_install_command = "mv ~/nvim_dotfiles/ ~/.config/nvim",
